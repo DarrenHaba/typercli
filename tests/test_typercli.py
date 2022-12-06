@@ -1,16 +1,10 @@
 # tests/test_rptodo.py
-
+import json
+import pytest
 
 from typer.testing import CliRunner
-
-from typercli import __app_name__, __version__, cli
 
 runner = CliRunner()
-
-import json
-
-import pytest
-from typer.testing import CliRunner
 
 from typercli import (
     DB_READ_ERROR,
