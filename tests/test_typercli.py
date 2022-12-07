@@ -4,8 +4,6 @@ import pytest
 
 from typer.testing import CliRunner
 
-runner = CliRunner()
-
 from typercli import (
     DB_READ_ERROR,
     SUCCESS,
@@ -14,6 +12,8 @@ from typercli import (
     cli,
     typercli,
 )
+
+runner = CliRunner()
 
 test_data1 = {
     "description": ["Clean", "the", "house"],
