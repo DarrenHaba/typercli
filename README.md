@@ -1,7 +1,7 @@
+
 # TyperCLI
 
-[![PyPI - Version](https://img.shields.io/pypi/v/typercli.svg)](https://pypi.org/project/typercli)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/typercli.svg)](https://pypi.org/project/typercli)
+## A demo made to learn the Typer CLI framework 
 
 -----
 
